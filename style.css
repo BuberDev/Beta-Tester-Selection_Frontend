@@ -1,0 +1,78 @@
+body {
+    background: #202020;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #303030;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+.btn-connect {
+    background: #3498db;
+    margin: 20px;
+}
+
+.btn-action {
+    background: #2980b9;
+    margin: 20px;
+}
+
+button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:disabled {
+    background: #7f8c8d;
+    cursor: not-allowed;
+}
+
+.counter {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #7f8c8d;
+}
+
+.pending-animation {
+    display: none;
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #7f8c8d;
+    border-top-color: #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.registered-addresses {
+    margin: 20px 0;
+}
+
+.registered-addresses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

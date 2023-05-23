@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beta Test Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Beta Test Registration</h1>
+        <button id="connect" class="btn-connect">Connect</button>
+        <button id="sign" class="btn-action" disabled>Sign For Beta Testing Selection</button>
+        <button id="select" class="btn-action" disabled>Select Beta Tester</button>
+        <div class="counter">Registered Addresses: <span id="counter">0</span></div>
+        <div class="pending-animation" id="pending-animation"></div>
+        <div class="registered-addresses">
+            <h2>Registered Addresses</h2>
+            <ul id="addresses"></ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.0/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
