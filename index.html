@@ -7,13 +7,18 @@
 <body>
     <div class="container">
         <h1>Welcome to Our Beta Test Registration</h1>
-        <button id="connect" class="btn-connect">Connect</button>
-        <button id="sign" class="btn-action" disabled>Sign For Beta Testing Selection</button>
-        <button id="select" class="btn-action" disabled>Select Beta Tester</button>
-        <div class="counter">Registered Addresses: <span id="counter">0</span></div>
+        <h1 id="selected-address-message"></h1>
+        <button id="connect-button" class="btn-connect" onclick="connect()">Connect</button>
+        <p id="connectionStatus" style="color: green;"></p> <!-- Added connection status text -->
+        <div id="account-info"></div>
+        <button id="sign" class="btn-action" onclick="signUpForBetaTesting()" disabled>Sign For Beta Testing Selection</button>
+        <button id="select" class="btn-action" onclick="selectRandomBetaTester()" disabled>Select Beta Tester</button>
+        <div id="message"></div>
+        <div class="counter">Registered Addresses: <span id="registered-addresses-count">0</span></div>
         <div class="pending-animation" id="pending-animation"></div>
         <div class="registered-addresses">
             <h2>Registered Addresses</h2>
+
             <ul id="addresses"></ul>
         </div>
     </div>
