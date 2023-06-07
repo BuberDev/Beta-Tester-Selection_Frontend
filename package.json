@@ -2,7 +2,7 @@
   "name": "Beta-Tester-Selection_Frontend",
   "version": "1.0.0",
   "main": "app1.js",
-  "author": "BuberDev <dawid.bubernak@gmail.com>",
+  "author": "BuberDev ",
   "license": "MIT",
   "dependencies": {
     "@chainlink/contracts": "^0.6.1",
