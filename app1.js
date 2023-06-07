@@ -345,8 +345,8 @@ let abi = [
 // Wczytaj 
 let web3 = new Web3(Web3.givenProvider);
 
-let contractAddress = "0x0997292F4DFf0400eaCEa903c68D9B96FF7D716A";
-let contractDeployerAddress = "0xcF73f7B010dbFa39Bf3EE3D074B6F81f0C261841";
+let contractAddress = "";
+let contractDeployerAddress = "";
 let currentUserAddress = null;
 let registeredAddressesCount = 2;
 let ABI =[];
